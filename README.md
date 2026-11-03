@@ -1,20 +1,20 @@
 Hair Trigger
 
-An interactive 2D game created with Python and Pygame, where players use different tools to interact with a character and influence their mood.
+An interactive 2D game created using Python and Pygame, where players use different tools to interact with a character and influence their mood.
 
 About the Project
 
-Hair Trigger is a small interactive game developed as part of a university coding project. The idea behind the game was to create a character that responds to the player's actions, making the experience interactive and humorous.
+Hair Trigger is an interactive game developed as part of a university coding project. The idea behind the game was to create a character that responds to the player's actions, making the experience interactive and humorous.
 
 Players can cut the character's hair using scissors, draw on their face using a marker, and wash away the markings. As the player interacts with the character, its facial expressions, dialogue and frustration level change in response.
 
-The purpose of this project was to learn the fundamentals of Python programming and apply them to creating an interactive game. It was developed through a combination of tutorials, independent coding, experimentation and debugging.
+The purpose of this project was to learn the fundamentals of Python programming and apply them to creating an interactive game. As someone who began the project without previous Python or game development experience, I developed my understanding through tutorials, adapting existing examples, independent coding, experimentation and debugging.
 
 Technologies Used
 
-Python 3 – Main programming language.
+Python 3: Main programming language.
 
-Pygame – Used to create the game window, graphics, animations, input handling and game loop.
+Pygame CE: Used to create the game window, graphics, animations, input handling and game loop.
 
 Python standard libraries:
 
@@ -24,7 +24,7 @@ random – Randomised hair generation and game behaviour.
 
 sys – Application exit handling.
 
-Dependencies: Pygame is required to run the game. It is listed in requirements.txt.
+Dependencies: Pygame CE is required to run the game and is listed in requirements.txt.
 
 Features
 
@@ -46,7 +46,7 @@ Frustration system: Tracks the character's reactions and anger throughout gamepl
 
 Game interface: Displays information such as remaining hair and the character's frustration.
 
-Ending screen: Concludes the game and displays a summary of the player's actions.
+Ending screen: Concludes the game when the remaining hair reaches a set threshold.
 
 Restart functionality: Allows players to restart the game.
 
@@ -54,13 +54,11 @@ How to Play
 
 Launch the game and read the instructions on the introductory screen.
 
-Select a tool using the keyboard:
+Controls
 
 Press 1 to select scissors.
 
 Press 2 to select the marker.
-
-Use the mouse to interact with the character:
 
 Drag the scissors across the hair to cut it.
 
@@ -68,11 +66,13 @@ Drag the marker across the face to draw.
 
 Press W to wash the marker off the character's face.
 
+Press R to restart the game.
+
+Press ESC to quit.
+
 Watch how the character's expressions, dialogue and frustration respond to your actions.
 
-The game ends when the hair remaining reaches the ending threshold.
-
-Press R to restart or ESC to quit.
+The game ends when the remaining hair reaches the ending threshold.
 
 Installation and Setup
 
@@ -82,7 +82,7 @@ Before running the game, make sure you have:
 
 Python 3 installed.
 
-Pygame installed.
+Pygame CE installed.
 
 A code editor or terminal to run the Python file.
 
@@ -112,9 +112,7 @@ venv\Scripts\activate
 
 python3 -m pip install -r requirements.txt
 
-Running the Game
-
-Once the dependencies have been installed, run:
+6. Run the game
 
 python3 hair_trigger.py
 
@@ -124,7 +122,7 @@ Project Status
 
 Completed prototype.
 
-The game includes its introductory screen, interactive tools, character reactions, frustration system and ending screen. The project was developed as a learning exercise to apply Python programming concepts through an interactive game.
+The game includes an introductory screen, interactive tools, character reactions, a frustration system and an ending screen. The project was developed as a learning exercise to apply Python programming concepts through an interactive game.
 
 Possible Future Improvements
 
@@ -142,9 +140,9 @@ Further improving the visual design and animations.
 
 Acknowledgements and Sources
 
-The development process involved learning from online Python and Pygame tutorials, experimenting with code, and independently adapting and writing features for the game.
+I developed Hair Trigger through a combination of independent coding, experimentation and learning from external Python and Pygame resources.
 
-Learning resources consulted:
+The following tutorials were consulted during the development process:
 
 YouTube tutorial 1
 
@@ -154,6 +152,8 @@ YouTube tutorial 3 – Pygame tutorial series
 
 YouTube tutorial 4
 
-Friends also tested the game and provided feedback during development. Their feedback contributed to the inclusion of an introductory screen and an ending to give the gameplay a clearer structure.
+I used these resources to develop my understanding of Python and Pygame techniques. I adapted relevant examples and applied the concepts to my own game. I also independently wrote and modified code to implement the game's specific features. Any directly adapted code should be acknowledged in the relevant code comments.
 
-AI assistance was used to help understand error messages and troubleshoot bugs. The game features and code were developed through tutorials, adaptation and independent coding.
+Friends tested the game and provided feedback during development. Their feedback contributed to the inclusion of an introductory screen and an ending, giving the gameplay a clearer structure.
+
+I also used AI assistance to help interpret error messages and troubleshoot bugs. I did not use AI to generate the game's features; the development and implementation involved my own coding, tutorial-based learning and adaptation.
