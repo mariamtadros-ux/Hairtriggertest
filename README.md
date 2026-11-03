@@ -1,89 +1,159 @@
 Hair Trigger
 
-About the Project:
-Hair Trigger is an interactive 2D game developed using Python and Pygame.
-The game centres around a character who reacts to the player's actions. Players can use scissors to cut the character's hair, draw on their face using a marker, and wash away the marker. Each action affects the character's mood and frustration level.
-The game includes an introductory screen, interactive gameplay, character reactions, a frustration system and an ending screen that summarises the player's actions.
+An interactive 2D game created with Python and Pygame, where players use different tools to interact with a character and influence their mood.
 
-Features
-Introductory screen with game instructions
-Interactive scissors tool for cutting hair
-Falling hair animations
-Marker tool for drawing on the character's face
-Different reactions depending on where the player draws
-Washing tool to remove marker
-Character mood and anger system
-Dialogue and facial expressions that respond to player actions
-Ending screen with a summary of player actions
-Restart functionality
+About the Project
+
+Hair Trigger is a small interactive game developed as part of a university coding project. The idea behind the game was to create a character that responds to the player's actions, making the experience interactive and humorous.
+
+Players can cut the character's hair using scissors, draw on their face using a marker, and wash away the markings. As the player interacts with the character, its facial expressions, dialogue and frustration level change in response.
+
+The purpose of this project was to learn the fundamentals of Python programming and apply them to creating an interactive game. It was developed through a combination of tutorials, independent coding, experimentation and debugging.
 
 Technologies Used
-Python & Pygame & Random and mathematical functions from Python's standard library
+
+Python 3 – Main programming language.
+
+Pygame – Used to create the game window, graphics, animations, input handling and game loop.
+
+Python standard libraries:
+
+math – Mathematical calculations and geometry.
+
+random – Randomised hair generation and game behaviour.
+
+sys – Application exit handling.
+
+Dependencies: Pygame is required to run the game. It is listed in requirements.txt.
+
+Features
+
+Introductory screen: Introduces the game and explains the controls.
+
+Scissors tool: Allows players to cut the character's hair by dragging across it.
+
+Falling hair animation: Cut sections of hair fall away from the character.
+
+Marker tool: Allows players to draw on the character's face.
+
+Face interaction zones: Different areas, including the eyes and mouth, can trigger different reactions.
+
+Wash tool: Removes marker drawings from the character's face.
+
+Character reactions: Facial expressions and dialogue change depending on player interactions.
+
+Frustration system: Tracks the character's reactions and anger throughout gameplay.
+
+Game interface: Displays information such as remaining hair and the character's frustration.
+
+Ending screen: Concludes the game and displays a summary of the player's actions.
+
+Restart functionality: Allows players to restart the game.
+
+How to Play
+
+Launch the game and read the instructions on the introductory screen.
+
+Select a tool using the keyboard:
+
+Press 1 to select scissors.
+
+Press 2 to select the marker.
+
+Use the mouse to interact with the character:
+
+Drag the scissors across the hair to cut it.
+
+Drag the marker across the face to draw.
+
+Press W to wash the marker off the character's face.
+
+Watch how the character's expressions, dialogue and frustration respond to your actions.
+
+The game ends when the hair remaining reaches the ending threshold.
+
+Press R to restart or ESC to quit.
+
+Installation and Setup
 
 Requirements
-To run Hair Trigger, you will need:
-Python 3 
-Pygame
 
-Installation
-Download or clone this repository.
-Open the project folder in your terminal.
+Before running the game, make sure you have:
 
-Create a virtual environment:
+Python 3 installed.
+
+Pygame installed.
+
+A code editor or terminal to run the Python file.
+
+1. Download the project
+
+Clone the repository or download the project files from GitHub.
+
+2. Open the project folder
+
+Open your terminal and navigate to the folder containing the game files.
+
+3. Create a virtual environment
+
 python3 -m venv venv
-Activate the virtual environment.
 
-Mac/Linux:
+4. Activate the virtual environment
+
+For macOS and Linux:
+
 source venv/bin/activate
 
-Windows:
+For Windows:
+
 venv\Scripts\activate
 
-Install the required dependencies:
+5. Install the dependencies
 
-python -m pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 
-Running the Game:
-Once the installation is complete, run the following command from the project folder:
+Running the Game
 
-python hair_trigger.py
+Once the dependencies have been installed, run:
 
-Game Controls
+python3 hair_trigger.py
 
-Key / Action
+The game window should open, allowing you to start playing.
 
-Function
+Project Status
 
-Mouse drag
+Completed prototype.
 
-Interact with the selected tool
+The game includes its introductory screen, interactive tools, character reactions, frustration system and ending screen. The project was developed as a learning exercise to apply Python programming concepts through an interactive game.
 
-1
+Possible Future Improvements
 
-Select scissors
+Some areas that could be explored in future development include:
 
-2
+Adding sound effects and background music.
 
-Select marker
+Introducing additional interactive tools.
 
-W
+Expanding the range of character expressions and dialogue.
 
-Wash marker off
+Adding more levels or different gameplay scenarios.
 
-R
+Further improving the visual design and animations.
 
-Restart / grow the hair back
+Acknowledgements and Sources
 
-ESC
+The development process involved learning from online Python and Pygame tutorials, experimenting with code, and independently adapting and writing features for the game.
 
-Exit the game
+Learning resources consulted:
 
-Development:
-This project was developed as part of a university coding assessment.
-The development process involved researching Python and Pygame tutorials, adapting existing examples, independent coding, debugging and feedback from friends who tested the game.
-Feedback contributed to the addition of an introductory screen and an ending condition based on the character's frustration.
+YouTube tutorial 1
 
-Acknowledgements
-Learning resources included Python and Pygame tutorials on YouTube.
-AI assistance was used for understanding error messages and troubleshooting bugs.
+YouTube tutorial 2
 
+YouTube tutorial 3 – Pygame tutorial series
+
+YouTube tutorial 4
+
+Friends also tested the game and provided feedback during development. Their feedback contributed to the inclusion of an introductory screen and an ending to give the gameplay a clearer structure.
+
+AI assistance was used to help understand error messages and troubleshoot bugs. The game features and code were developed through tutorials, adaptation and independent coding.
